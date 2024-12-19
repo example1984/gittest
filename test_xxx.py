@@ -28,6 +28,3 @@ class TestAddFunction(unittest.TestCase):
 
     def test_add_large_mixed_numbers(self):
         self.assertEqual(add(1000000, -2000000), -1000000)
-
-if __name__ == '__main__':
-    unittest.main()
